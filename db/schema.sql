@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS ReactBlogSpot;
+CREATE DATABASE ReactBlogSpot;
