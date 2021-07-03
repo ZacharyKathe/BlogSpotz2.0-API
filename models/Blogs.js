@@ -14,7 +14,22 @@ Blogs.init(
         blog_type: {
             type: DataTypes.STRING,
             allowNull: false,
-            
-        }
+
+        },
+        description: {
+            type: DataTypes.STRING,
+        },
+        date_created: {
+            type: DataTypes.DATE,
+            allowNull: false,
+            defaultValue: DataTypes.NOW,
+        },
+        reactions: {
+            type:DataTypes.INTEGER,
+            defaultValue: 0
+        },
+    },
+    {
+        
     }
 )
